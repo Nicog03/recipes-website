@@ -41,7 +41,7 @@ body {
 /* Essa regra abaixo dá a borda e a sombra pra todas as imagens no arquivo */
 
 .gif,
-.acaraje-img {
+.img {
   border: black solid 7px;
   border-radius: 10px;
   box-shadow: black 5px 5px;
@@ -77,9 +77,9 @@ body {
   color: rgb(20, 34, 20);
 }
 
-/* Acaraje section */
+/* dishes section */
 
-.acaraje-header {
+.header {
   background-color: white;
   padding: 10px;
   border-radius: 10px;
@@ -90,24 +90,24 @@ body {
   font-size: 40px;
 }
 
-.acrj-descr {
+.descr {
   width: fit-content;
   display: flex;
   margin: 0px auto;
 }
 
-.acaraje-img {
+.img {
   height: 500px;
   width: auto;
   margin: 20px;
   align-self: center;
 }
 
-.acaraje-para {
+.para {
   width: 650px;
 }
 
-.acaraje-para p {
+.para p {
   text-align: justify;
   padding: 10px;
   font-size: 20px;
@@ -118,14 +118,14 @@ body {
   font-weight: 700;
 }
 
-.acrj-ingr {
+.ingr {
   width: 650px;
 }
 
 .ingr-title,
-.acrj-ingr-cont,
+.ingr-cont,
 .steps-title,
-.acrj-steps-cont {
+.steps-cont {
   border: black solid 5px;
   border-radius: 10px;
   box-shadow: black 5px 5px;
@@ -140,34 +140,34 @@ body {
   padding: 10px;
 }
 
-.acrj-ingr-cont,
-.acrj-steps-cont {
+.ingr-cont,
+.steps-cont {
   width: auto;
   margin: auto;
   padding: 20px;
   font-weight: 700;
 }
 
-.acrj-ingr-cont li {
+.ingr-cont li {
   font-size: 19px;
 }
 
-.acrj-ingr-cont h3 {
+.ingr-cont h3 {
   font-size: 30px;
 }
 
-.acrj-steps-cont li {
+.steps-cont li {
   margin: 10px;
   font-size: 19px;
 }
 
-.acrj-steps {
+.steps {
   width: 700px;
   margin-left: 20px;
   width: 900px;
 }
 
-.steps-container {
+.dish-container {
   display: flex;
   margin: 0px auto;
   width: fit-content;
