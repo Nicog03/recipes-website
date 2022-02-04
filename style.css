@@ -1,72 +1,174 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap");
 
 body {
-    font-family: 'Roboto Slab', serif;
-    background-color: rgb(253, 252, 198);
+  font-family: "Roboto Slab", serif;
+  background-color: rgb(253, 252, 198);
 }
 
 .container {
-    background-color: rgb(17, 96, 180);
-    width: fit-content;
-    padding: 15px;
-    border-radius: 10px;
-    border: black solid 7px;
-    box-shadow: black 8px 8px;
+  background-color: rgb(17, 96, 180);
+  width: fit-content;
+  padding: 15px;
+  border-radius: 10px;
+  border: black solid 7px;
+  box-shadow: black 8px 8px;
 }
 
 .main-content {
-    display: flex;
+  display: flex;
 }
 
 .main-header {
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-    border: black solid 5px;
-    box-shadow: black 5px 5px;
-    width: fit-content;
-    margin: auto;
-    font-size: 40px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: black solid 5px;
+  box-shadow: black 5px 5px;
+  width: fit-content;
+  margin: auto;
+  font-size: 40px;
 }
 
-a {
-    display: flex;
-    color: black;
-    font-size: 35px;
-    font-weight: 900;
-    margin: auto 5px;
-    transition: ease-out .3s;
+.container a {
+  display: flex;
+  color: black;
+  font-size: 35px;
+  font-weight: 900;
+  margin: auto 5px;
+  transition: ease-out 0.3s;
+}
+
+/* Essa regra abaixo dá a borda e a sombra pra todas as imagens no arquivo */
+
+.gif,
+.acaraje-img {
+  border: black solid 7px;
+  border-radius: 10px;
+  box-shadow: black 5px 5px;
 }
 
 .gif {
-    display: flex;
-    margin-top: 15px;
-    margin-left: 11em;
-    border: black solid 7px;
-    border-radius: 10px;
-    box-shadow: black 5px 5px;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 11em;
 }
 
-ul {
-    align-self: center;
+.container ul {
+  align-self: center;
 }
 
-li {
-    background-color: white;
-    margin-bottom: 2px;
-    border: black solid 5px;
-    border-radius: 10px;
-    width: fit-content;
-    padding: 3px;
-    transition: ease-out .3s;
+.container li {
+  background-color: white;
+  margin-bottom: 2px;
+  border: black solid 5px;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 3px;
+  transition: ease-out 0.3s;
 }
 
-li:hover {
-    background-color: rgb(253, 252, 198);
-    box-shadow:rgb(20, 34, 20) 5px 5px;
-    border:rgb(20, 34, 20) solid 5px;
+.container li:hover {
+  background-color: rgb(253, 252, 198);
+  box-shadow: rgb(20, 34, 20) 5px 5px;
+  border: rgb(20, 34, 20) solid 5px;
 }
 
-a:hover {
-    color:rgb(20, 34, 20);
+.container a:hover {
+  color: rgb(20, 34, 20);
+}
+
+/* Acaraje section */
+
+.acaraje-header {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: black solid 5px;
+  box-shadow: black 5px 5px;
+  width: fit-content;
+  margin: auto;
+  font-size: 40px;
+}
+
+.acrj-descr {
+  width: fit-content;
+  display: flex;
+  margin: 0px auto;
+}
+
+.acaraje-img {
+  height: 500px;
+  width: auto;
+  margin: 20px;
+  align-self: center;
+}
+
+.acaraje-para {
+  width: 650px;
+}
+
+.acaraje-para p {
+  text-align: justify;
+  padding: 10px;
+  font-size: 20px;
+  background-color: white;
+  border: black solid 5px;
+  border-radius: 10px;
+  box-shadow: black 5px 5px;
+  font-weight: 700;
+}
+
+.acrj-ingr {
+  width: 650px;
+}
+
+.ingr-title,
+.acrj-ingr-cont,
+.steps-title,
+.acrj-steps-cont {
+  border: black solid 5px;
+  border-radius: 10px;
+  box-shadow: black 5px 5px;
+  background-color: white;
+}
+
+.ingr-title,
+.steps-title {
+  margin: 10px auto;
+  font-size: 35px;
+  text-align: center;
+  padding: 10px;
+}
+
+.acrj-ingr-cont,
+.acrj-steps-cont {
+  width: auto;
+  margin: auto;
+  padding: 20px;
+  font-weight: 700;
+}
+
+.acrj-ingr-cont li {
+  font-size: 19px;
+}
+
+.acrj-ingr-cont h3 {
+  font-size: 30px;
+}
+
+.acrj-steps-cont li {
+  margin: 10px;
+  font-size: 19px;
+}
+
+.acrj-steps {
+  width: 700px;
+  margin-left: 20px;
+  width: 900px;
+}
+
+.steps-container {
+  display: flex;
+  margin: 0px auto;
+  width: fit-content;
 }
