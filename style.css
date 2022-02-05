@@ -5,6 +5,11 @@ body {
   background-color: rgb(253, 252, 198);
 }
 
+.parent {
+  display: flex;
+  height: 100vh;
+}
+
 .container {
   background-color: rgb(17, 96, 180);
   width: fit-content;
@@ -12,6 +17,7 @@ body {
   border-radius: 10px;
   border: black solid 7px;
   box-shadow: black 8px 8px;
+  margin: auto;
 }
 
 .main-content {
