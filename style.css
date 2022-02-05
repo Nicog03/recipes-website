@@ -3,6 +3,7 @@
 body {
   font-family: "Roboto Slab", serif;
   background-color: rgb(253, 252, 198);
+  margin: 0;
 }
 
 .parent {
@@ -189,4 +190,67 @@ body {
 .steps-cont p strong {
   color: tomato;
   font-size: 20px;
+}
+
+.top-bar {
+  background: black;
+  padding: 15px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.return-btn,
+.other-dishes a {
+  text-decoration: none;
+  color: #ffffff;
+  border: white solid 3px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: white 3px 3px;
+  transition: 0.3s ease-out;
+  font-weight: 700;
+}
+
+.return-btn {
+  font-size: 2rem;
+  height: fit-content;
+  align-self: center;
+}
+
+.return-btn:hover,
+.other-dishes a:hover {
+  background-color: white;
+  color: black;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: #000000 0px 0px;
+}
+
+.return-btn:active {
+  box-shadow: white 0px 0px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background: #c0bfbf;
+}
+
+.other-dishes {
+  font-size: 1rem;
+  align-self: center;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+}
+
+.other-dishes a {
+  font-size: 1.5rem;
+  margin: 5px;
+  align-self: center;
+}
+
+.other-dishes p {
+  color: white;
+  width: fit-content;
+  display: inline;
+  align-self: center;
+  margin-right: 10px;
 }
