@@ -178,3 +178,15 @@ body {
   margin: 0px auto;
   width: fit-content;
 }
+
+.steps-cont p {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.steps-cont p strong {
+  color: tomato;
+  font-size: 20px;
+}
