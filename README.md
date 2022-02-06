@@ -24,4 +24,4 @@ Sinta-se à vontade para me dar qualquer feedback e crítica construtiva, são s
 
 ## Final Result
 
-Checkout the final result [here!] (https://nicog03.github.io/odin-recipes/)
+Checkout the final result [here!](https://nicog03.github.io/odin-recipes/)
